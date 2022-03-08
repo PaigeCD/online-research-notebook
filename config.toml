@@ -1,4 +1,43 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Online Research Notebook'
+baseURL = "https://research-notebook-paigecd.com/"
+languageCode = "en-us"
+title = "Online Research Notebook"
 theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Paige Downey - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+
+[params]
+  logo = "/images/logo.png"
+  description ="My Research Notes:"
+
+[params.author]
+  name = "Paige Downey"
+  thumbnail = "/images/author.png"
+  description = "Creator of this research notebook."
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Paige Downey"
+  subtitle = "Online Research Notebook"
+  mdtext = '''
+This is the repository that will contain my online research notebook for my CMPSC 580 class.\
+**Please click the 'Blog' tab above to see my posts.**
+
+'''
+  alertbar = false
+
+[params.social]
+  github = "PaigeCD"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
