@@ -8,7 +8,7 @@ enableEmoji = true
 publishDir = "docs"
 
 [params]
-  logo = "/images/logo.png"
+  logo = "/images/pencil.png"
   description ="My Research Notes:"
 
 [params.author]
@@ -21,7 +21,7 @@ publishDir = "docs"
   title = "Online Research Notebook"
   subtitle = "Paige Downey"
   mdtext = '''
-This is the repository that will contain my online research notebook for my CMPSC 580 class.\
+This is the website that will contain my online research notebook for my CMPSC 580 class.\
 **Please click the 'Blog' tab above to see my posts.**
 
 '''
