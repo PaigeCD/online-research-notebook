@@ -1,6 +1,0 @@
-[submodule "themes/mediumish-hugo-theme"]
-	path = themes/mediumish-hugo-theme
-	url = https://github.com/lgaida/mediumish-gohugo-theme
-[submodule "themes/aether"]
-	path = themes/aether
-	url = https://github.com/josephhutch/aether.git
