@@ -1,3 +1,3 @@
 [submodule "themes/mediumish-hugo-theme"]
 	path = themes/mediumish-hugo-theme
-	url = git@github.com:lgaida/mediumish-gohugo-theme.git
+	url = https://github.com/lgaida/mediumish-gohugo-theme
