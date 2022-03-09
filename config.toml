@@ -1,7 +1,7 @@
 baseURL = "https://research-notebook-paigecd.com/"
 languageCode = "en-us"
 title = "Online Research Notebook"
-theme = "mediumish-gohugo-theme"
+theme = "mediumish-hugo-theme"
 summaryLength = 25
 copyright = "Paige Downey - All rights reserved"
 enableEmoji = true
