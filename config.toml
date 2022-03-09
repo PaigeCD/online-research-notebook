@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://research-notebook-paigecd.netlify.app"
 title = "Hugo Themes - aether"
 author = "Joe Hutchinson"
 canonifyurls = true
