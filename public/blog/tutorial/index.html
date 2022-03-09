@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="generator" content="Hugo 0.89.0" />
+	
+	<link rel="icon" href="/images/pencil.png">
+	
+	<title>Tutorial: Setting up Unity | Online Research Notebook</title>
+	
+	
+
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://research-notebook-paigecd.com/blog/tutorial/cover.jpg"/>
+<meta name="twitter:title" content="Tutorial: Setting up Unity"/>
+<meta name="twitter:description" content="Let&rsquo;s set up Unity! Unity is a popular engine for game development. Since I am researching video games and video game development, I decided to check it out."/>
+
+	<meta property="og:title" content="Tutorial: Setting up Unity" />
+<meta property="og:description" content="Let&rsquo;s set up Unity! Unity is a popular engine for game development. Since I am researching video games and video game development, I decided to check it out." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://research-notebook-paigecd.com/blog/tutorial/" /><meta property="og:image" content="https://research-notebook-paigecd.com/blog/tutorial/cover.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-03-09T11:40:11+02:00" />
+<meta property="article:modified_time" content="2022-03-09T11:40:11+02:00" />
+
+
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	
+	<link rel="stylesheet" href="https://research-notebook-paigecd.com/css/medium.ece05c3e0cb4c172303048d902f5c72734dac11b313a671c381a53648c811f4d.css" integrity="sha256-7OBcPgy0wXIwMEjZAvXHJzTawRsxOmccOBpTZIyBH00=">
+
+	
+	<link rel="stylesheet" href="https://research-notebook-paigecd.com/css/additional.14f7dbd08a523bb7dd03b308a991480ea5d8d744f6229068023169de78b48922.css" integrity="sha256-FPfb0IpSO7fdA7MIqZFIDqXY10T2IpBoAjFp3ni0iSI=">
+
+	
+	
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <div class="container pr-0">
+        
+        <a class="navbar-brand" href="https://research-notebook-paigecd.com//">
+
+            
+            <img src="/images/pencil.png" alt="logo">
+            
+        </a>
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            
+            <ul class="navbar-nav ml-auto">
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">About Me</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+
+        <div class="site-content">   
+            <div class="container">
+<div class="mainheading">
+    <h1 class="sitetitle">Online Research Notebook</h1>
+    <p class="lead">
+         My Research Notes:
+    </p>
+</div><div class="main-content">
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
+    <p>Share</p>
+    <ul>
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Tutorial%3a%20Setting%20up%20Unity&url=https%3a%2f%2fresearch-notebook-paigecd.com%2fblog%2ftutorial%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <i class="fab fa-twitter"></i>
+        </a>
+        </li>
+        
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fresearch-notebook-paigecd.com%2fblog%2ftutorial%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fresearch-notebook-paigecd.com%2fblog%2ftutorial%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+        <i class="fab fa-xing"></i>
+        </a>
+        </li>        
+    </ul>
+
+    
+</div>
+</div>
+                                
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                        	
+                        
+                        
+                        
+                        <div class="row post-top-meta">
+                            <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+                                <img class="author-thumb" src="/images/notebook.png" alt="Paige Downey">
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
+                                <a target="_blank" class="link-dark">Paige Downey</a><br>
+                                <span class="author-description">
+                                    Creator of this research notebook.<br>
+                                    <i class="far fa-star"></i>
+                                    Mar 9, 2022
+                                    <i class="far fa-clock clock"></i>
+                                    3 min read
+                                </span>					
+                            </div>
+                        </div>			
+                        	
+                        
+                                                
+                        
+                        <h1 class="posttitle">Tutorial: Setting up Unity</h1> 
+                    </div>
+
+                    
+                    
+                    
+                        <img class="featured-image img-fluid" src="https://research-notebook-paigecd.com/blog/tutorial/cover.jpg" alt="thumbnail for this post">
+                    
+                    
+
+                    
+                    <div class="article-post">
+                        <h3 id="lets-set-up-unity">Let&rsquo;s set up Unity!</h3>
+<p><a href="https://unity.com/">Unity</a> is a popular engine for game development. Since I am researching video games and video game development, I decided to check it out. Follow along with me as I write out the steps I took to get Unity up and running on my machine!</p>
+<p>Some of Unity&rsquo;s main appeals are that:</p>
+<ul>
+<li>Games developed using Unity can be deployed to many platforms.</li>
+<li>Unity offers many products, tools, and solutions to developers.</li>
+<li>Unity does not collect royalties on games developed using their tool.</li>
+</ul>
+<h3 id="the-setup">The setup:</h3>
+<p>To get started with Unity, you will need to install the Unity Hub. Let&rsquo;s walk through the steps together!</p>
+<ol>
+<li>First, you will need to go to <a href="https://unity.com/">Unity&rsquo;s website</a> in order to get the file necessary for installation.</li>
+<li>When on the website, click the blue button in the top right-hand corner that says &ldquo;Get Started&rdquo;.</li>
+<li>From there, click the blue button that says &ldquo;Download for &hellip;&rdquo; The &ldquo;&hellip;&rdquo; will be replaced by the name of your operating system.</li>
+<li>After clicking that button, you will receive the UnityHubSetup.exe file.</li>
+<li>Open it to run it.</li>
+<li>Read and accept the agreement that pops up.</li>
+<li>Next, you will be prompted to pick a location to install to. I chose to use the default location.</li>
+<li>After picking the location, Unity Hub will begin installing.</li>
+<li>To continue setting up, open Unity Hub.</li>
+<li>Click the &ldquo;Create account&rdquo; option to be taken to id.unity.com</li>
+<li>From here, enter your email, username, password, and full name.</li>
+<li>You will also need to read and agree to all required agreements.</li>
+<li>After entering this information, you will be sent a confirmation email.</li>
+<li>Open the received email and click the link that says &ldquo;Link to confirm email&rdquo;</li>
+<li>You will then be taken to a webpage where you will check a box to say you are not a robot.</li>
+<li>After this has all been completed, your Unity account will be set up.</li>
+<li>Now that your account is set up, log in using the provided &ldquo;Sign in&rdquo; link in Unity Hub.</li>
+<li>After closing that notification, you will be prompted to install the Unity Editor. You can change the installation location from here, but I chose the default.</li>
+<li>You will then be prompted with a window that says &ldquo;Get Personal Edition License&rdquo;. This is the free version of Unity and will be fine for my research at the moment. You could also choose a different license option from here as well.</li>
+<li>After hitting &ldquo;Agree and get Personal License&rdquo;, the editor will begin to install. This may take some time to complete.</li>
+</ol>
+<h3 id="the-execution">The execution:</h3>
+<p>Now that everything is installed, let&rsquo;s take a look at what the Unity Hub has to offer!</p>
+<ul>
+<li>Open Unity Hub and click the blue &ldquo;New Project&rdquo; button to get started.</li>
+<li>You will see that there are three categories of templates to choose from: Core, Sample, and Learn. There is also a tab that will show all templates.</li>
+<li>To begin, pick whichever template you feel is most applicable to your project. Core templates describe the type of game. Samples are examples of scenes that can be developed. The Learn category houses templates that act as tutorials for game styles and for the Unity engine tools.</li>
+<li>To begin getting hands-on expirence with this tool, I will likely be following along with a Unity Learn template.</li>
+<li>It is also worth noting that the Unity Hub has a &ldquo;Learn&rdquo; tab that contains many videos and tutorials to help new users get accustomed to Unity&rsquo;s features.</li>
+</ul>
+<p>Alternatively, if you already have a Unity project that you have been working on, click the dropdown arrow for the &ldquo;Open&rdquo; option.
+You will have the choice to either add a project from your disk or open a remote project.</p>
+<h3 id="helpful-resources">Helpful resources:</h3>
+<ul>
+<li><a href="https://unity.com/">Unity&rsquo;s Main Page</a></li>
+<li><a href="https://unity.com/download">Download Unity</a></li>
+<li><a href="https://learn.unity.com/">Unity Learn</a></li>
+</ul>
+
+                    </div>
+                    
+                    
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    
+                    
+                        <a class="d-block col-md-6 text-lg-right" href="https://research-notebook-paigecd.com/blog/introduction/">Introduction to Interests &raquo;</a>
+                    
+                    <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+
+
+            </div>
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+			<div class="d-md-flex align-items-center justify-content-center h-100">
+				<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+			</div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+			
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                &copy; Copyright Paige Downey - All rights reserved
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" rel="noopener" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<script src="https://research-notebook-paigecd.com/js/mediumish.e4b90c58dfa15ac82caf2edfa01e5fd047e17bc15e6babe5c0e442a4407d0b25.js" integrity="sha256-5LkMWN&#43;hWsgsry7foB5f0Efhe8Fea6vlwORCpEB9CyU="></script>
+    </body>
+</html>

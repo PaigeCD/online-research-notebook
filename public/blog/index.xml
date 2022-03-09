@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Online Research Notebook</title>
+    <link>https://research-notebook-paigecd.com/blog/</link>
+    <description>Recent content in Blogs on Online Research Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paige Downey - All rights reserved</copyright>
+    <lastBuildDate>Wed, 09 Mar 2022 11:40:11 +0200</lastBuildDate><atom:link href="https://research-notebook-paigecd.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial: Setting up Unity</title>
+      <link>https://research-notebook-paigecd.com/blog/tutorial/</link>
+      <pubDate>Wed, 09 Mar 2022 11:40:11 +0200</pubDate>
+      
+      <guid>https://research-notebook-paigecd.com/blog/tutorial/</guid>
+      <description>Let&amp;rsquo;s set up Unity! Unity is a popular engine for game development. Since I am researching video games and video game development, I decided to check it out.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Interests</title>
+      <link>https://research-notebook-paigecd.com/blog/introduction/</link>
+      <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://research-notebook-paigecd.com/blog/introduction/</guid>
+      <description>Exploring my interests through research. As you probably already know, this website is serving as my online research notebook. During my Computer Science 580 class, I will be using research to explore my interests and posting various thoughts and findings here.</description>
+    </item>
+    
+    <item>
+      <title>Autobiography</title>
+      <link>https://research-notebook-paigecd.com/blog/autobiography/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://research-notebook-paigecd.com/blog/autobiography/</guid>
+      <description>Hello there! I am Paige Downey, nice to meet you! I am currently a junior at Allegheny College. I love creative problem solving and developing cool stuff.</description>
+    </item>
+    
+  </channel>
+</rss>
