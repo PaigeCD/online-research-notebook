@@ -5,7 +5,7 @@ theme = "mediumish-gohugo-theme"
 summaryLength = 25
 copyright = "Paige Downey - All rights reserved"
 enableEmoji = true
-publishDir = "docs"
+publishDir = "public"
 
 [params]
   logo = "/images/pencil.png"
