@@ -1,4 +1,4 @@
-baseURL = "http://research-notebook-paigecd.com/"
+baseURL = "https://research-notebook-paigecd.com/"
 languageCode = "en-us"
 title = "Online Research Notebook"
 theme = "mediumish-gohugo-theme"
