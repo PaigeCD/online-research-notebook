@@ -2,7 +2,9 @@
 title: "Autobiography"
 date: 2022-03-08
 publishdate: 2022-03-08
-comments: false
+resources:
+- name: featuredImage
+  src: "cover.jpg"
 ---
 ### Hello there!
  

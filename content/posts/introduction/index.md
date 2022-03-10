@@ -2,7 +2,9 @@
 title: "Introduction to Interests"
 date: 2022-03-09
 publishdate: 2022-03-09
-comments: false
+resources:
+- name: featuredImage
+  src: "cover.jpg"
 ---
 ### Exploring my interests through research.
 

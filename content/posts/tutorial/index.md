@@ -2,7 +2,9 @@
 title: "Tutorial: Setting up Unity"
 date: 2022-03-09T11:40:11+02:00
 publishdate: 2022-03-09T11:40:11+02:00
-comments: false
+resources:
+- name: featuredImage
+  src: "cover.jpg"
 ---
 ### Let's set up Unity!
 
