@@ -8,8 +8,7 @@ theme = "aether"
 [params]
     brand = "Paige Downey"
     description = "This is the website that contains my online research notebook for my CMPSC 580 class."
-    headshotimg = "img/faceshot.jpg"
-    headshotalt = "Generic grey headshot picture"
+
 
 [markup]
   [markup.highlight]
