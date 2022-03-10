@@ -1,5 +1,5 @@
 ---
-title: "aether"
+title: "Online Research Notebook"
 date: 2018-04-27T09:46:15-04:00
-description: "A clean Hugo theme for blogs emphasizing motion, material, and depth."
+description: "This is the website that contains my online research notebook for my CMPSC 580 class."
 ---

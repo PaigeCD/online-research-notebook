@@ -1,13 +1,13 @@
 baseurl = "https://research-notebook-paigecd.netlify.app"
-title = "Hugo Themes - aether"
-author = "Joe Hutchinson"
+title = "Online Research Notebook"
+author = "Paige Downey"
 canonifyurls = true
 paginate = 3
 theme = "aether"
 
 [params]
-    brand = "aether"
-    description = "aether Hugo theme for blogs"
+    brand = "Paige Downey"
+    description = "This is the website that contains my online research notebook for my CMPSC 580 class."
     headshotimg = "img/faceshot.jpg"
     headshotalt = "Generic grey headshot picture"
 
